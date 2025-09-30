@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Currículum de Andrey Berrocal Gamboa</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- CSS interno (requisito del ejercicio) -->
+    <style>
+        /* ====== Estilos internos ====== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 0;
+        }
+        h1 { text-align: center; margin-top: 1rem; }
+        #intro { background: white; border-radius: 12px; padding: 2rem; margin: 1.5rem auto; max-width: 1000px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .destacado { font-weight: bold; color: #1565c0; }
+        ul > li { margin-bottom: 0.5rem; }
+        table tbody tr:nth-child(odd) { background-color: #e3f2fd; }
+        table tbody tr:hover { background-color: #bbdefb; transition: 0.3s; }
+        .caja { margin: 20px; padding: 1.5em; border: 3px dashed #1565c0; font-size: 1.2rem; width: 60%; background-color: #e8f5e9; border-radius: 10px; }
+        table { width: 100%; margin: 20px auto; border-collapse: collapse; background: white; box-shadow: 0 3px 6px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden; }
+        th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+        tfoot { background-color: #eeeeee; }
+        #foto { width: 160px; border-radius: 50%; border: 4px solid #1565c0; float: right; margin-left: 1rem; }
+        footer { text-align: center; margin: 2rem 0; color: #555; }
+    </style>
+</head>
+<body>
+
+    <!-- Requisito: h1 con el título exacto -->
+    <h1 id="titulo">Currículum de Andrey Berrocal Gamboa</h1>
+
+    <!-- Requisito: h2 con estilo en línea -->
+<h2 style="color: purple; text-decoration: underline; text-align: center; margin-top: 0.5rem;">
+    Breve descripción profesional
+</h2>
+
+
+    <section id="intro">
+        <img id="foto" src="foto.jpg" alt="Foto Andrey" />
+        <p>
+            Soy <strong>Andrey Berrocal</strong>, estudiante de la <em>Universidad Técnica Nacional</em>.<br>
+            Apasionado por el desarrollo de software y la tecnología.
+            <small>Competencias: programación orientada a objetos, bases de datos, trabajo en equipo y resolución de problemas.</small>
+        </p>
+        <p>Buscando oportunidades en desarrollo de software. <ins>Disponible desde: 1 de octubre de 2025</ins></p>
+        <hr>
+    </section>
+
+    <!-- Requisito: Sección de contacto -->
+    <section id="contacto" class="section">
+        <h3>Información de Contacto</h3>
+        <p><i>andrey.bg2111@gmail.com</i></p>
+        <p>Teléfono: 71888854<sup>1</sup></p>
+        <p>Ubicación: Costa Rica <sub>(zona horaria local)</sub></p>
+        <blockquote>“Aprender haciendo.”</blockquote>
+        <p>Frase personal: <q>Siempre en constante aprendizaje</q></p>
+    </section>
+
+    <!-- Requisito: tabla con thead, tbody, tfoot, colspan y rowspan -->
+    <section class="section">
+        <h3>🎓 Experiencia y Formación</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Institución</th>
+                    <th>Rol / Título</th>
+                    <th>Año</th>
+                    <th>Detalle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Universidad Técnica Nacional</td>
+                    <td>Estudiante de Ingeniería en Sistemas</td>
+                    <td>2020 - Actualidad</td>
+                    <td>Enfocado en desarrollo de software y redes.</td>
+                </tr>
+                <tr>
+                    <td>CCNA (Universidad Juan Pablo II)</td>
+                    <td>2023</td>
+                    <td>Certificación en redes Cisco.</td>
+                </tr>
+                <tr>
+                    <td>Pizza Latina</td>
+                    <td>Delivery</td>
+                    <td>2021</td>
+                    <td>Responsable de entregas y atención al cliente.</td>
+                </tr>
+                <tr>
+                    <td>Comercial Quirós</td>
+                    <td>Dependiente de ventas</td>
+                    <td>2022</td>
+                    <td>Atención al cliente y asesoría en productos.</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Cursos adicionales</td>
+                    <td>2022 - 2024</td>
+                    <td>
+                        Inglés básico (INA), Python (Cisco), Desarrollo Web, Fundamentos de Programación, Bases de datos, Git y GitHub.
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong>Total de registros</strong></td>
+                    <td>5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section class="section">
+        <h3>💻 Habilidades</h3>
+        <ul>
+            <li class="destacado">Java (POO, colecciones, excepciones, GUI)</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Python básico</li>
+            <li>SQL (consultas, joins, normalización)</li>
+            <li>Redes y CCNA</li>
+            <li>Control de versiones con Git y GitHub</li>
+            <li>Resolución de problemas y trabajo en equipo</li>
+            <li>Comunicación efectiva</li>
+            <li>Metodologías ágiles (Scrum, Kanban)</li>
+        </ul>
+
+        <!-- Requisito: modelo de caja -->
+        <div class="caja">Ejemplo del modelo de caja con margin, padding, border, font-size y width.</div>
+
+        <!-- Requisito: colores por nombre, RGB y HEX -->
+        <div style="background-color: red; color: white; padding: 8px; margin-bottom:6px;">Color por nombre</div>
+        <div style="background-color: rgb(0,128,255); color: #fff; padding: 8px; margin-bottom:6px;">Color RGB</div>
+        <div style="background-color: #ff5733; color: black; padding: 8px; margin-bottom:6px;">Color HEX</div>
+    </section>
+
+    <footer>
+        <hr>
+        <p>📅 Currículum generado el <strong>30 de septiembre de 2025</strong></p>
+    </footer>
+
+</body>
+</html>

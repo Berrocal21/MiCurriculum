@@ -1,0 +1,43 @@
+
+/* Selector de etiqueta */
+p { color: #333; line-height: 1.5; }
+
+/* Selector de clase */
+.parrafo-clase { color: #1565c0; }
+
+/* Selector de id */
+#titulo { text-align: center; }
+
+/* Selector descendiente */
+div p { font-style: italic; }
+
+/* Selector hijo */
+ul > li { list-style-type: circle; }
+
+/* Interacción */
+a:hover { text-decoration: underline; color: #0d47a1; }
+td:hover { background-color: #ffe082; }
+
+/* Clase para secciones */
+.section {
+    background: white;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Unidades: px, em, rem, % */
+h1 {
+    color: darkblue; /* requisito: h1 color en CSS externo */
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Tablas estilizadas */
+table {
+    font-size: 0.95rem;
+    border-spacing: 0;
+}
+
